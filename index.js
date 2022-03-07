@@ -21,7 +21,8 @@ class SteamLauncherExtension extends Extension {
 						'Steam',
 						'steamapps'
 					),
-					path.join('D:', 'Program Files (x86)', 'Steam', 'steamapps')
+					path.join('D:', 'Program Files (x86)', 'Steam', 'steamapps'),
+					path.join('F:', 'SteamLibrary', 'steamapps')
 				]
 			}
 		};
